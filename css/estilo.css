@@ -1,0 +1,367 @@
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding-top: 100px;
+  background-color: #131212;
+}
+
+
+.user {
+  position: absolute;
+  right: 40px;
+  bottom: 100px;
+  background-color:#432d8d;
+  height: 460px;
+  width: 300px;
+  border-radius: 58px;
+  box-shadow: 0px 1px 4px #FF1ACB;
+}
+
+.user h3 {
+  margin-left:110px;
+}
+
+.btn {
+  position: absolute;
+  right: 90px;
+  bottom: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn img {
+  position: absolute;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn button {
+  height: 40px;
+  width: 200px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #1DC0E7;
+  box-shadow: 0px 2px 4px #FF1ACB;
+  text-shadow: 0px 1px 4px #FF1ACB;
+}
+
+.perfil i{
+  font-size: 100px;
+  position: relative;
+  left: 95px;
+  top: 20px;
+}
+
+.conf  {
+  position: absolute;
+  left: 170px;
+  top: 100px;
+  color: black;
+  border: 1px solid #FF1ACB;
+  background-color: white;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+#sair{
+  height: 30px;
+  width: 90px;
+  position: relative;
+  left: 55px;
+  cursor: pointer;
+}
+
+article {
+  text-align: center;
+  background-color: #131212;
+  margin-bottom: 10px;
+
+}
+
+footer {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-color: #131212;
+  height: 500px;
+  
+}
+footer .text {
+  cursor: pointer;
+}
+
+.text {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 30%;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-shadow: 0px 1px 4px #FF1ACB;
+}
+
+.logo {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  border-radius: 36px;
+  border: 2px solid #FF1ACB;
+}
+
+.pesquisar {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.pesquisar i {
+  text-align: center;
+  position: relative;
+  left: 480px;
+  top: 8px;
+  text-shadow: 0px 4px 4px #FF1ACB;
+
+}
+
+.pesquisar input {
+  height: 30px;
+  width: 500px;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: #432d8d;
+  box-shadow: 0px 2px 4px #FF1ACB;
+
+}
+
+.dropdown button {
+  margin-left: 45%;
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #432d8d;
+  text-shadow: 0px 2px 4px #FF1ACB;
+  box-shadow: 0px 2px 4px #FF1ACB;
+}
+
+.dropdown button:hover{
+  background-color: #00A4bd;
+}
+
+.dropdown p {
+  position: relative;
+  bottom: 2px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  width: 100px;
+  margin-left: 47%;
+  margin-top: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  background-color: #432d8d;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: white;
+  background-color: #00A4bd;
+  border-radius: 10px;
+}
+
+.dropdown img {
+  height: 27px;
+  width: 30px;
+  float: left;
+  margin: 10px;
+}
+
+.categoria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 35px;
+  font-size: 20px;
+
+}
+
+.categoria a {
+  background-color: white;
+  display: inline-block;
+  margin-right: 70px;
+  color: inherit;
+  text-decoration: none;
+  padding: 20px;
+  width: 80px;
+  border-radius:20px;
+  margin-bottom: 200px;
+}
+
+#pc, #sony, #microsoft, #nintendo {
+  box-shadow: 0px 2px 4px #FF1ACB;
+  text-shadow: 0px 1px 4px #FF1ACB;
+
+}
+
+#pc {
+  background-color: white;
+}
+#sony {
+  background-color: #00A4bd;
+}
+#microsoft {
+  background-color:green; 
+}
+#nintendo {
+  color: red;
+  background-color:white;
+}
+
+.lns {
+  position:static;
+  background-color: #432d8d;
+  margin-right: 150px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  box-shadow: 0px 4px 4px #FF1ACB;
+  
+}
+.lns img {
+  height: 450px;
+  margin-top: 15px;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+.lns a {
+  text-decoration: none;
+
+}
+.lns p {
+  position: relative;
+  font-size: 35px;
+  color: white;
+  bottom: 30px;
+}
+
+.container{
+  display: flex;
+}
+.desconto {
+  background-color: #432d8d;
+  position: relative;
+  margin-right: 250px;
+  margin-left: 50px;
+  margin-bottom: 250px;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.desconto img {
+  height: 500px;
+  margin: 11px;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+.desconto h2, h4{
+  color: white;
+  cursor: pointer;
+}
+
+.desconto h1 {
+  color: red;
+  cursor: pointer;
+}
+
+.catalogo {
+  background-color: #432d8d;
+  position: relative;
+  right: 200px;
+  margin-bottom: 250px;
+  text-align: center;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.catalogo a{
+  position: relative;
+  top: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.catalogo img {
+  height: 500px;
+  margin-left: 10px;
+  margin-right:10px;
+  margin-top: 10px;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.arkham {
+  margin-top:-150px;
+  margin-left: 150px;  
+  margin-right: 150px;
+  height: 480px;
+  background-color: #432d8d;
+  box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.arkham img{
+ height: 350px;
+ width: 98%;
+ margin-top: 10px;
+ box-shadow: 0px 4px 4px #FF1ACB;
+}
+
+.arkham a {
+  text-decoration: none;
+  color: white;
+}
+
+.vendidos {
+  color: white;
+  font-size: 30px;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 0px 2px 4px #FF1ACB;
+}
+.vendidos h1{
+  margin-bottom: 40px;
+}
+
+.arrow {
+  height: 70px;
+  margin-left: 700px;
+  margin-bottom: 40px;
+  width: 100px;  
+}
+
+.jogos {
+  margin-left: 200px;
+  width: 80%;
+  height: 500px;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
