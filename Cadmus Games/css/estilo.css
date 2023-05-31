@@ -20,6 +20,10 @@ header {
   box-shadow: 0px 1px 4px #FF1ACB;
 }
 
+.perfil  {
+  text-shadow: 0px 1px 4px #FF1ACB;
+}
+
 .user h3 {
   margin-left:110px;
 }
@@ -134,12 +138,18 @@ footer .text {
   height: 30px;
   width: 500px;
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   margin-bottom: 20px;
   border-radius: 20px;
   background-color: #432d8d;
   box-shadow: 0px 2px 4px #FF1ACB;
 
+}
+
+input::placeholder {
+  font-size: 15px;
+  color: black;
+  text-shadow: 0px 2px 4px #FF1ACB;
 }
 
 .dropdown button {
