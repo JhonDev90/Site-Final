@@ -1,70 +1,94 @@
 body {
-  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-header {
-  padding-top: 100px;
+  font-weight: bolder;
   background-color: #131212;
 }
 
+header {
+  padding-top: 4%;
+}
+
+article {
+  text-align: center;
+}
+
+footer {
+  margin-top: 20%;
+  text-align: center;
+  height: 400px;
+}
 
 .user {
   position: absolute;
-  right: 40px;
-  bottom: 100px;
+  right: 3%;
+  bottom: 15%;
   background-color:#432d8d;
-  height: 460px;
-  width: 300px;
+  height: 66%;
+  width: 19%;
   border-radius: 58px;
+  box-shadow: 0px 1px 4px #FF1ACB;
+
+}
+
+.user img {
+  position: relative;
+  height: 120px;
+  margin-top: 10%;
+  border-radius: 100px;
+  left: 30%;
+  color: white;
   box-shadow: 0px 1px 4px #FF1ACB;
 }
 
-.perfil  {
+.user h3 {
+  color: white;
+  margin-left: 35%;
+  margin-top: 2%;
   text-shadow: 0px 1px 4px #FF1ACB;
 }
 
-.user h3 {
-  margin-left:110px;
+a {
+  text-decoration: none;
 }
 
 .btn {
   position: absolute;
-  right: 90px;
-  bottom: 120px;
+  right: 10%;
+  bottom: 17%;
   display: flex;
   flex-direction: column;
 }
 
+.btn a{
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 1px 4px #FF1ACB;
+}
+
 .btn img {
   position: absolute;
-  height: 20px;
+  height: 8%;
   display: flex;
   flex-direction: column;
 }
 
 .btn button {
   height: 40px;
-  width: 200px;
-  margin-top: 8px;
+  width: 150%;
+  margin-top: 5%;
   cursor: pointer;
   border-radius: 10px;
-  background-color: #1DC0E7;
-  box-shadow: 0px 2px 4px #FF1ACB;
-  text-shadow: 0px 1px 4px #FF1ACB;
+  background-color: #1ea9cb;
+  box-shadow: 0px 1px 4px #FF1ACB;
 }
 
-.perfil i{
-  font-size: 100px;
-  position: relative;
-  left: 95px;
-  top: 20px;
-}
 
 .conf  {
   position: absolute;
-  left: 170px;
-  top: 100px;
+  right: 35%;
+  top: 27%;
+  height: 4%;
+  width: 6%;
   color: black;
   border: 1px solid #FF1ACB;
   background-color: white;
@@ -72,39 +96,24 @@ header {
   cursor: pointer;
 }
 
+.conf i  {
+  position: relative;
+  top:3%;
+  left: 7%;
+}
+
+.conf:hover {
+ background-color: #1DC0E7;
+}
+
 #sair{
   height: 30px;
-  width: 90px;
+  width: 70%;
   position: relative;
-  left: 55px;
+  left: 35%;
   cursor: pointer;
-}
-
-article {
-  text-align: center;
-  background-color: #131212;
-  margin-bottom: 10px;
-
-}
-
-footer {
-  font-size: 20px;
+  font-weight: bold;
   color: white;
-  text-align: center;
-  background-color: #131212;
-  height: 500px;
-  
-}
-footer .text {
-  cursor: pointer;
-}
-
-.text {
-  position: absolute;
-  margin-top: 7%;
-  margin-left: 30%;
-  letter-spacing: 2px;
-  line-height: 40px;
   text-shadow: 0px 1px 4px #FF1ACB;
 }
 
@@ -113,22 +122,22 @@ footer .text {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 45px;
+  margin-top: 4%;
   border-radius: 36px;
   border: 2px solid #FF1ACB;
 }
 
-.pesquisar {
+.pesquisar{
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-
+  margin-top: 3%;
+  color: white;
 }
 
 .pesquisar i {
   text-align: center;
   position: relative;
-  left: 480px;
+  left: 32%;
   top: 8px;
   text-shadow: 0px 4px 4px #FF1ACB;
 
@@ -146,13 +155,15 @@ footer .text {
 
 }
 
-input::placeholder {
+input::placeholder, input[type="text"] {
   font-size: 15px;
-  color: black;
+  color: white;
   text-shadow: 0px 2px 4px #FF1ACB;
 }
 
 .dropdown button {
+  color: white;
+  text-align: center;
   margin-left: 45%;
   margin-top: 20px;
   width: 150px;
@@ -169,6 +180,7 @@ input::placeholder {
 
 .dropdown p {
   position: relative;
+  display: inline-block;
   bottom: 2px;
   text-align: center;
   font-size: 16px;
@@ -176,10 +188,10 @@ input::placeholder {
 
 .dropdown-content {
   display: none;
-  position: relative;
+  position:relative;
   width: 100px;
-  margin-left: 47%;
-  margin-top: 20px;
+  margin-left: 43%;
+  margin-top: 1%;
 }
 
 .dropdown:hover .dropdown-content {
@@ -187,25 +199,31 @@ input::placeholder {
 }
 
 .dropdown-content a {
-  background-color: #432d8d;
-  font-size: 20px;
+  background-color: #4d3c84;
+  font-size: 15px;
   text-align: center;
   display: block;
-  color: black;
+  color: white;
   text-decoration: none;
+  width: 200%;
+  padding: 5%;
+  border-radius: 6px;
+  margin-bottom: 4%;
+  box-shadow: 0px 2px 4px #FF1ACB;
+  text-shadow: 0px 2px 4px #FF1ACB;
 }
 
 .dropdown-content a:hover {
   color: white;
   background-color: #00A4bd;
-  border-radius: 10px;
+  font-size: 120%;
 }
 
 .dropdown img {
-  height: 27px;
-  width: 30px;
+  height: 30px;
+  width: 25%;
   float: left;
-  margin: 10px;
+  margin: 5%;
 }
 
 .categoria {
@@ -213,8 +231,7 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 60px;
-  margin-left: 35px;
+  margin-top: 7%;
   font-size: 20px;
 
 }
@@ -234,7 +251,6 @@ input::placeholder {
 #pc, #sony, #microsoft, #nintendo {
   box-shadow: 0px 2px 4px #FF1ACB;
   text-shadow: 0px 1px 4px #FF1ACB;
-
 }
 
 #pc {
@@ -245,24 +261,25 @@ input::placeholder {
 }
 #microsoft {
   background-color:green; 
+  width: 6%;
 }
+
 #nintendo {
   color: red;
   background-color:white;
 }
 
 .lns {
-  position:static;
   background-color: #432d8d;
   margin-right: 150px;
   margin-left: 200px;
-  margin-bottom: 100px;
+  margin-bottom: 15%;
   box-shadow: 0px 4px 4px #FF1ACB;
   
 }
 .lns img {
   height: 450px;
-  margin-top: 15px;
+  margin-top: 1%;
   box-shadow: 0px 4px 4px #FF1ACB;
 }
 .lns a {
@@ -271,7 +288,7 @@ input::placeholder {
 }
 .lns p {
   position: relative;
-  font-size: 35px;
+  font-size: 29px;
   color: white;
   bottom: 30px;
 }
@@ -295,12 +312,10 @@ input::placeholder {
 }
 .desconto h2, h4{
   color: white;
-  cursor: pointer;
 }
 
 .desconto h1 {
-  color: red;
-  cursor: pointer;
+  color: yellowgreen;
 }
 
 .catalogo {
@@ -349,29 +364,12 @@ input::placeholder {
   color: white;
 }
 
-.vendidos {
+.text {
   color: white;
-  font-size: 30px;
-  margin-top: 300px;
-  display: flex;
-  flex-direction: column;
-  text-shadow: 0px 2px 4px #FF1ACB;
-}
-.vendidos h1{
-  margin-bottom: 40px;
-}
-
-.arrow {
-  height: 70px;
-  margin-left: 700px;
-  margin-bottom: 40px;
-  width: 100px;  
-}
-
-.jogos {
-  margin-left: 200px;
-  width: 80%;
-  height: 500px;
-  cursor: pointer;
-  margin-bottom: 100px;
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 30%;
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-shadow: 0px 1px 4px #FF1ACB;
 }
