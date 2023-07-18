@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  padding-top: 4%;
+  padding-top: 4vh;
 }
 
 article {
@@ -13,21 +13,23 @@ article {
 }
 
 footer {
-  margin-top: 18%;
   text-align: center;
   height: 400px;
+}
+
+.user-mobile {
+  display: none;
 }
 
 .user {
   position: absolute;
   right: 3%;
   bottom: 15%;
-  background-color:#432d8d;
+  background-color: #432d8d;
   height: 66%;
   width: 19%;
   border-radius: 58px;
   box-shadow: 0px 1px 4px #FF1ACB;
-
 }
 
 .user img {
@@ -59,7 +61,7 @@ a {
   flex-direction: column;
 }
 
-.btn a{
+.btn a {
   color: white;
   font-weight: bold;
   text-shadow: 0px 1px 4px #FF1ACB;
@@ -82,8 +84,7 @@ a {
   box-shadow: 0px 1px 4px #FF1ACB;
 }
 
-
-.conf  {
+.conf {
   position: absolute;
   right: 35%;
   top: 27%;
@@ -96,17 +97,17 @@ a {
   cursor: pointer;
 }
 
-.conf i  {
+.conf i {
   position: relative;
-  top:3%;
+  top: 3%;
   left: 7%;
 }
 
 .conf:hover {
- background-color: #1DC0E7;
+  background-color: #1DC0E7;
 }
 
-#sair{
+#sair {
   height: 30px;
   width: 70%;
   position: relative;
@@ -117,17 +118,17 @@ a {
   text-shadow: 0px 1px 4px #FF1ACB;
 }
 
-.logo {
+.logo img {
   height: 150px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 4%;
-  border-radius: 36px;
+  border-radius: 20px;
   border: 2px solid #FF1ACB;
 }
 
-.pesquisar{
+.pesquisar {
   display: flex;
   justify-content: center;
   margin-top: 3%;
@@ -140,22 +141,22 @@ a {
   left: 32%;
   top: 8px;
   text-shadow: 0px 4px 4px #FF1ACB;
-
 }
 
 .pesquisar input {
   height: 30px;
-  width: 500px;
+  width: 80%;
+  max-width: 500px;
   text-align: center;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 2%;
   border-radius: 20px;
   background-color: #432d8d;
   box-shadow: 0px 2px 4px #FF1ACB;
-
 }
 
-input::placeholder, input[type="text"] {
+input::placeholder,
+input[type="text"] {
   font-size: 15px;
   color: white;
   text-shadow: 0px 2px 4px #FF1ACB;
@@ -165,7 +166,7 @@ input::placeholder, input[type="text"] {
   color: white;
   text-align: center;
   margin-left: 45%;
-  margin-top: 20px;
+  margin-top: 2%;
   width: 150px;
   height: 50px;
   border-radius: 10px;
@@ -174,21 +175,20 @@ input::placeholder, input[type="text"] {
   box-shadow: 0px 2px 4px #FF1ACB;
 }
 
-.dropdown button:hover{
+.dropdown button:hover {
   background-color: #00A4bd;
 }
 
 .dropdown p {
   position: relative;
   display: inline-block;
-  bottom: 2px;
   text-align: center;
   font-size: 16px;
 }
 
 .dropdown-content {
-  display: none;
-  position:relative;
+  display:none;
+  position: relative;
   width: 100px;
   margin-left: 43%;
   margin-top: 1%;
@@ -208,7 +208,7 @@ input::placeholder, input[type="text"] {
   width: 200%;
   padding: 5%;
   border-radius: 6px;
-  margin-bottom: 4%;
+  margin-bottom: 7%;
   box-shadow: 0px 2px 4px #FF1ACB;
   text-shadow: 0px 2px 4px #FF1ACB;
 }
@@ -233,7 +233,6 @@ input::placeholder, input[type="text"] {
   text-align: center;
   margin-top: 7%;
   font-size: 20px;
-
 }
 
 .categoria a {
@@ -244,11 +243,14 @@ input::placeholder, input[type="text"] {
   text-decoration: none;
   padding: 20px;
   width: 7%;
-  border-radius:20px;
+  border-radius: 20px;
   margin-bottom: 14%;
 }
 
-#pc, #sony, #microsoft, #nintendo {
+#pc,
+#sony,
+#microsoft,
+#nintendo {
   box-shadow: 0px 2px 4px #FF1ACB;
   text-shadow: 0px 1px 4px #FF1ACB;
 }
@@ -256,35 +258,38 @@ input::placeholder, input[type="text"] {
 #pc {
   background-color: white;
 }
+
 #sony {
   background-color: #00A4bd;
 }
+
 #microsoft {
-  background-color:green; 
+  background-color: green;
 }
 
 #nintendo {
   color: red;
-  background-color:white;
+  background-color: white;
 }
 
 .lns {
   background-color: #432d8d;
   margin-right: 150px;
   margin-left: 12%;
-  margin-bottom: 6%;
+  margin-bottom: 9%;
   box-shadow: 0px 4px 4px #FF1ACB;
-  
 }
+
 .lns img {
   height: 450px;
   margin-top: 1%;
   box-shadow: 0px 4px 4px #FF1ACB;
 }
+
 .lns a {
   text-decoration: none;
-
 }
+
 .lns p {
   position: relative;
   font-size: 29px;
@@ -303,11 +308,13 @@ input::placeholder, input[type="text"] {
 .desconto img {
   position: relative;
   height: 400px;
-  margin-top:2%;
-  width:95%;
+  margin-top: 2%;
+  width: 95%;
   box-shadow: 0px 4px 4px #FF1ACB;
 }
-.desconto h2, h4{
+
+.desconto h2,
+h4 {
   color: white;
   margin: 2%;
 }
@@ -330,7 +337,7 @@ input::placeholder, input[type="text"] {
   box-shadow: 0px 4px 4px #FF1ACB;
 }
 
-.catalogo a{
+.catalogo a {
   text-decoration: none;
   color: white;
   font-size: 15px;
@@ -350,10 +357,10 @@ input::placeholder, input[type="text"] {
   box-shadow: 0px 4px 4px #FF1ACB;
 }
 
-.arkham img{
- width: 98%;
- margin-top: 1%;
- box-shadow: 0px 4px 4px #FF1ACB;
+.arkham img {
+  width: 98%;
+  margin-top: 1%;
+  box-shadow: 0px 4px 4px #FF1ACB;
 }
 
 .arkham a {
@@ -366,11 +373,151 @@ input::placeholder, input[type="text"] {
   margin-top: 4%;
   bottom: 15px;
 }
+
 .text {
   color: white;
   position: relative;
-  bottom: 65%;
-  letter-spacing: 2px;
-  line-height: 40px;
+  top: 15%;
+  line-height: 50px;
   text-shadow: 0px 1px 4px #FF1ACB;
+}
+
+@media screen and (max-width: 760px) {
+
+  .logo img {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 1rem;
+    margin-left: 25%;
+  }
+  .pesquisar input {
+    margin-left:-19%;
+    height: 1.2rem;
+    width: 75%;
+  }
+
+  .pesquisar i {
+    position:absolute;
+    left: 68%;
+    top:20.7%;
+  }
+
+  .dropdown button {
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    height: 2rem;
+  }
+ 
+  .dropdown p {
+    position: relative;
+    bottom: 38%;
+    left: -1%;
+  }
+
+  .dropdown img {
+    height: 90%;
+    bottom: 20%;
+  }
+
+  .dropdown-content {
+    display: none;
+    width: 20%;
+    margin-left: 20%;
+  }
+
+  .dropdown-content a{
+    margin-top: 7%;
+  }
+
+  
+  .categ {
+    position: relative;
+    bottom:10%;
+  }
+
+  .categoria {
+    position: relative;
+    font-size: 60%;
+    left: 17%;
+    inline-size: 52%;
+  }
+  
+  .categoria a{
+    width: 15%;
+  }
+
+  .categoria i{
+    margin-left: 20%;
+  }
+ 
+  .user-mobile {
+    width: 17.1%;
+    display: block;
+    position: absolute;
+    left: 80%;
+    top:7%;
+    background-color: #432d8d;
+    box-shadow: 0px 1px 4px #FF1ACB;
+    text-shadow: 0px 1px 4px #FF1ACB;
+    font-size: 70%;
+  }
+
+  .user-mobile a {
+    color: white;
+  }
+
+  .user-mobile img {
+    height: 4rem;
+    margin-left: 15%;
+    border-radius: 50%;
+  }
+
+  .user, .btn {
+    display: none;
+  }
+
+  .lns  {
+    width: 95%;
+    margin-left: 2%;
+  }
+
+  .lns img {
+    width: 95%;
+    height: 10rem;
+    margin-top: 2%;
+  }
+  .lns p {
+    font-size: 100%;
+  }
+
+  .desconto {
+    width: 95%;
+    height: 40rem;
+    margin-left: 2%;
+  }
+
+  .desconto img {
+    width: 95%;
+  }
+
+  .catalogo {
+    margin-top: 10%;
+    margin-left: -49%;
+    width: 95%;
+  }
+
+  .catalogo img {
+    width: 95%;
+  }
+  .arkham {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+
+  .text {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
