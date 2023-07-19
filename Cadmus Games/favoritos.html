@@ -16,7 +16,7 @@
 
     h1 {
       position: absolute;
-      top:5%;
+      top: 5%;
       left: 50%;
     }
 
@@ -37,22 +37,50 @@
       text-decoration: none;
       color: white;
     }
- 
+
     img {
       position: relative;
       width: 40%;
       left: 30%;
     }
+
     button {
-          background-color: #1ea9cb;
-          width: 10%;
-          height: 3rem;
-          margin-left: 50%;
-          margin-top: 2%;
-          border-radius: 10px;
-          text-shadow: 0px 2px 4px #FF1ACB;
-          box-shadow: 0px 2px 4px #FF1ACB;
-        }
+      background-color: #1ea9cb;
+      width: 10%;
+      height: 3rem;
+      margin-left: 50%;
+      margin-top: 2%;
+      border-radius: 10px;
+      text-shadow: 0px 2px 4px #FF1ACB;
+      box-shadow: 0px 2px 4px #FF1ACB;
+    }
+
+    @media screen and (max-width: 760px) {
+      h1 {
+        display: none;
+      }
+
+      .favoritos {
+        width: 95%;
+        height: 65rem;
+        margin-left: 4%;
+        text-shadow: 0px 2px 4px #FF1ACB;
+        box-shadow: 0px 2px 4px #FF1ACB;
+      }
+
+      img {
+        height: 15rem;
+        width: 90%;
+        margin-bottom: 2rem;
+        margin-left: -25%;
+      }
+
+      button {
+        width: 35%;
+        height: 40px;
+        margin-left: 37%;
+      }
+    }
   </style>
 </head>
 
@@ -62,9 +90,10 @@
     <br><img src="img/Batman Collection.jpg">
     <br><img src="img/Uncharted Collection.jpg">
     <br><img src="img/Mortal Kombat 1.webp">
-    <br>Encontre os seus produtos favoritos e adicione-os a esta lista.
+    <br>Encontre os seus produtos favoritos
+    <br> e adicione-os a esta lista.
   </div>
-    <br><button><a href="home.html"><i class="bi bi-arrow-left-square"> </i>Voltar</a></button>
+  <br><button><a href="home.html"><i class="bi bi-arrow-left-square"> </i>Voltar</a></button>
 </body>
 
 </html>

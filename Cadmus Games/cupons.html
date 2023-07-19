@@ -26,7 +26,6 @@
       background-color: #432d8d;
       width: 30%;
       margin-left: 35%;
-
     }
 
     .cupom {
@@ -39,6 +38,7 @@
       border-radius: 15px;
       width: 80%;
       height: 260px;
+      cursor: pointer;
       text-shadow: 0px 2px 4px #FF1ACB;
       box-shadow: 0px 2px 4px #FF1ACB;
     }
@@ -59,6 +59,47 @@
       text-shadow: 0px 2px 4px #FF1ACB;
       box-shadow: 0px 2px 4px #FF1ACB;
     }
+
+    @media screen and (max-width: 760px) {
+      h1 {
+        display: none;
+      }
+
+      .container {
+        height: 55rem;
+        width: 80%;
+        position: relative;
+        right: 25%;
+        border-radius: 10px;
+        text-shadow: 0px 2px 4px #FF1ACB;
+        box-shadow: 0px 2px 4px #FF1ACB;
+        padding: 3%;
+
+      }
+
+      .cupom {
+        margin-left: 10%;
+        position: relative;
+      }
+
+      
+      button {
+          background-color: #1ea9cb;
+          height: 2rem;
+          width: 30%;
+          margin-left: 39%;
+          margin-top: 1%;
+          border-radius: 10px;
+          cursor: pointer;
+          text-shadow: 0px 2px 4px #FF1ACB;
+          box-shadow: 0px 2px 4px #FF1ACB;
+        }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
   </style>
 </head>
 <body>
@@ -77,7 +118,7 @@
       <br>Compre 2 produtos e leve o terceiro de graça. Use o cupom "COMPRE2LEVE3"
     </div>
   </div>
-  <br><a href="home.html"><button><i class="bi bi-arrow-left-square"> </i>Voltar</button></a>
+  <br><button><a href="home.html"><i class="bi bi-arrow-left-square"> </i>Voltar</a></button>
 </body>
 
 </html>

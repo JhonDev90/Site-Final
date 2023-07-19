@@ -56,30 +56,33 @@
           cursor: pointer;
           text-shadow: 0px 2px 4px #FF1ACB;
           box-shadow: 0px 2px 4px #FF1ACB;
-          
         }
 
         @media screen and (max-width: 760px) {
+          h1 {
+            display: none;
+          }
           .status {
-            height: 20%;
+            height: 45rem;
             width: 100%;
             margin-left: 0%;
+            text-shadow: 0px 2px 4px #FF1ACB;
+            box-shadow: 0px 2px 4px #FF1ACB;
           }
 
           button {
             position: absolute;
-            height: 35px;
+            height: 2rem;
             width: 30%;
-            bottom: 10%;
+            bottom: 1%;
             right: 35%;
           }
         }
       </style>
 </head>
-
 <body>
     <div class="status">
-        <h1>Status de Compras</h1>
+        <h1>Status dos Pedidos</h1>
         <h2>Pedido em Processamento</h2>
         <br>O seu pedido está sendo processado. Em breve, você receberá informações sobre o status da sua compra.
         <img src="img/progresso.png">
