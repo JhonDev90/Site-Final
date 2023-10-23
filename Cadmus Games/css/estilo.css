@@ -136,6 +136,7 @@ body {
   position: relative;
   left: 32%;
   top: 8px;
+  cursor:pointer;
 }
 
 .pesquisar input {
